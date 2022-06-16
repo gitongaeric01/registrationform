@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body{
+    margin: auto;
+    padding: 2cm;
+   background-color: hsl(246, 25%, 77%);
+}
+
+.main{
+
+background-image: url(bg-intro-desktop.png);
+background-color: hsl(0, 100%, 74%) ;
+display: flex;
+padding: 20px;
+}
+
+.container2{
+    
+display: flex;
+flex-direction: column;
+margin: auto;
+width: 50%;
+
+}
+
+
+.item-a{
+padding: 10px;
+margin: auto;
+text-align: center;
+}
+
+.item-b{
+padding-bottom: 10px;
+
+}
+
+.item-c{
+background-color: white;
+width: 100%;
+padding: 10px;
+border-radius: 0.2cm;
+align-items: center;
+justify-content: center;
+}
+
+
+.item-a-h{ color: white;
+    padding-bottom: 10px;
+    font-family: Poppins;
+    font-weight: 700;
+    margin: auto;
+}
+
+.item-a-p{ color: white;
+    text-align: center;
+        font-family: Poppins;
+    font-weight: 400;
+
+}
+
+.btn1{
+ background-color:hsl(248, 32%, 49%) ;
+ color: white;
+border-radius: 0.2cm;
+padding: 2px;
+text-align: center;
+width: 100%;
+}
+
+
+.btn2{
+ background-color:hsl(154, 59%, 51%) ;
+ color: white;
+border-radius: 0.2cm;
+padding: 5px;
+text-align: center;
+width: 100%;
+margin: 5px;
+font-family: Poppins;
+font-weight: 600;
+}
+
+.formarea{
+    width:100%;
+    padding: 5px;
+    margin: 5px;
+        font-family: Poppins;
+    font-weight: 400;
+
+}
+.item1{ color: rgb(5, 5, 5);
+    text-align: center;
+        font-family: Poppins;
+    font-weight: 400;}
+
+
+
+.terms{
+    color:hsl(0, 100%, 74%);
+        font-family: Poppins;
+    font-weight: 500;
+}
+
+.trial{
+font-weight: bolder;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+@media screen and (min-width:375px) and (max-width:1440px){
+    .main{
+flex-direction: column;
+    }}
